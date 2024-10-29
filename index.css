@@ -1,0 +1,38 @@
+
+
+
+@font-face 
+{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* le point virgule arrête la commande, spécifie l'ordre*/
+
+src: url();}
+
+
+/* comme ça les commentaires un ouvrant un fermant*/
+/*et le backgroune ?? place ?*/
+
+body {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+
+h1 {text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 100px;
+    color: orange;
+    /*Les textes de polices doivent être en rem, pour l'accessibilité à tous et sur tout*/
+    font-size: 2.85rem;
+    text-shadow: 13px 18px 6px #00000042; /*suffit de taper #*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    color: orangered;
+}
+
+h4 {color: orangered;}
