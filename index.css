@@ -9,13 +9,10 @@ src: url();text-align: justify;}
 
 /* */
 * {
-    text-align: justify;
     margin: 15px; 
-    }
+  min-height: 100vh; }
 
-    
-
-
+body
 h1 {text-transform:uppercase;
     letter-spacing:7px;
     text-align:center;
@@ -25,15 +22,15 @@ h1 {text-transform:uppercase;
     font-size:2.85rem;
     text-shadow:13px 18px 6px #00000042; /*suffit de taper #*/
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: beige;
 }
 
-h2 {
-   b color: orange;
-  
+h2 { 
+   color: orange;
 }
 
 h3 {
-    color: orange;
+    color: rgb(95, 70, 25);
 }
 
 h4 {color: orange;}
@@ -55,20 +52,16 @@ en revanche cela masque le texte, ajouter de l'opacité ou transparence*/
 
 main {font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    background-color: darkslategrey;
+    background-color: rgba(147, 165, 165, 0.712);
     color: aliceblue;
-background: url(https://static.holidu.com/cms/7079/l/1342.jpg); center/cover ;
-min-height: 100vh; visibility: 100% hidden; /*??? à revoir */
+background: url(https://static.holidu.com/cms/7079/l/1342.jpg);
+min-height: 100vh; visibility: 100%; /*??? à revoir */
 text-align:"justify"; /*pas marché*/
-ou https://www.leipzig-sachsen.de/leipzig/bilder/leipzig_bei_nacht.jp
-
 }
-
-
 
 footer
 {
-background-color: black;
+background-color: rgba(134, 159, 175, 0.747);
 width: 100%;
 min-height: 20vh;
 }
